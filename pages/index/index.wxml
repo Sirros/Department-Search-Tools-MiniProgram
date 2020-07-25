@@ -1,0 +1,22 @@
+<view class="content">
+  <cu-custom class="index-header" bgColor="bg-gradual-green">
+    <view slot="content"> 首页 </view>
+  </cu-custom>
+  <!-- 主内容 -->
+  <view class="index-wrapper">
+    <!-- 标题 -->
+    <view class='margin-xl bg-white padding-l radius shadow-lg padding-top'>
+      <view class='text-center margin-bottom text-lg  text-grey'>小美女小帅哥，快让我来帮你寻找科室吧！</view>
+    </view>
+    <!-- 图片 -->
+    <view class="img-area padding-bottom">
+      <image class="img" bindload="imgLoad" src="{{gifUrl}}"></image>
+    </view>
+    <!-- 按钮 -->
+    <view class="btn-area">
+      <view class="cu-bar btn-group padding-top">
+        <button class="cu-btn bg-green shadow-blur round lg">去查询</button>
+      </view>
+    </view>
+  </view>
+</view>
